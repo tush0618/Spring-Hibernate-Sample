@@ -1,5 +1,6 @@
 package vnfhub.supplier.service;
 
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -20,6 +21,11 @@ public class UserServiceImpl implements UserService{
 	@Override
 	@Transactional
 	public void addUser(Register reg) {
+		String password = reg.getPassword();
+		BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
+		String hashedPassword = passwordEncoder.encode(password);
+		reg.setPassword(hashedPassword);
+		reg.setConfirmPassword(hashedPassword);
 		this.userDAO.addUser(reg);
 	}
 
@@ -27,11 +33,7 @@ public class UserServiceImpl implements UserService{
 	@Transactional
 	public boolean userValidate(Login log) {
 		boolean valid = false;
-		System.out.println(3);
-//		String userid = log.getUserid();
-//		String password = log.getPassword();
 		valid = this.userDAO.userValidate(log);
-		System.out.println(6	);
 		return valid;
 	}
 

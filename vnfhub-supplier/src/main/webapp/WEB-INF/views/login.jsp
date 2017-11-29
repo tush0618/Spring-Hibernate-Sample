@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Registration</title>
+<title>Login</title>
 </head>
 <body>
 	<form:form modelAttribute="login" action="login/process"
@@ -13,12 +13,12 @@
 
 			
 			<tr>
-				<td><form:label path="userid">User ID</form:label></td>
-				<td><form:input path="userid" name="userid" id="userid" /></td>
+				<td><form:label path="userId">User ID</form:label></td>
+				<td><form:input path="userId" name="userId" id="userId" /></td>
 			</tr>
 			<tr>
 				<td><form:label path="password">Password</form:label></td>
-				<td><form:input path="password" name="password" id="password" />
+				<td><form:input path="password" name="password" id="password" type="password"/>
 				</td>
 			</tr>
 			<tr>

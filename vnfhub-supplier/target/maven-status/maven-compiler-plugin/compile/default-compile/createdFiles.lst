@@ -1,10 +1,7 @@
-vnfhub\supplier\dao\IRegisterDao.class
+vnfhub\supplier\dao\UserDAO.class
+vnfhub\supplier\dao\UserDAOImpl.class
+vnfhub\supplier\service\UserService.class
+vnfhub\supplier\service\UserServiceImpl.class
 vnfhub\supplier\model\Register.class
-vnfhub\supplier\dao\LoginDaoImpl.class
-vnfhub\supplier\dao\ILoginDao.class
-vnhub\supplier\service\LoginService.class
-vnfhub\supplier\model\Register$EmployeeEntity.class
-vnfhub\supplier\controller\RegisterController.class
+vnfhub\supplier\controller\UserController.class
 vnfhub\supplier\model\Login.class
-vnfhub\supplier\dao\RegisterDaoImpl.class
-vnhub\supplier\service\RegisterService.class

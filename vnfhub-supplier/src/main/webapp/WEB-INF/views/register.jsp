@@ -12,16 +12,16 @@
 		<table style="text-align: center;">
 
 			<tr>
-				<td><form:label path="fname">First Name</form:label></td>
-				<td><form:input path="fname" name="fname" id="fname" /></td>
+				<td><form:label path="firstName">First Name</form:label></td>
+				<td><form:input path="firstName" name="firstName" id="firstName" /></td>
 			</tr>
 			<tr>
-				<td><form:label path="lname">Last Name</form:label></td>
-				<td><form:input path="lname" name="lname" id="lname" /></td>
+				<td><form:label path="lastName">Last Name</form:label></td>
+				<td><form:input path="lastName" name="lastName" id="lastName" /></td>
 			</tr>
 			<tr>
-				<td><form:label path="userid">User ID</form:label></td>
-				<td><form:input path="userid" name="userid" id="userid" /></td>
+				<td><form:label path="userId">User ID</form:label></td>
+				<td><form:input path="userId" name="userId" id="userId" /></td>
 			</tr>
 			<tr>
 				<td><form:label path="type">Type</form:label></td>
@@ -48,14 +48,14 @@
 			</tr>
 			<tr>
 				<td><form:label path="password">Password</form:label></td>
-				<td><form:input path="password" name="password" id="password" />
+				<td><form:input path="password" name="password" id="password" type="password"/>
 				</td>
 			</tr>
 			<tr>
-				<td><form:label path="cpassword">Confirm Password</form:label>
+				<td><form:label path="confirmPassword">Confirm Password</form:label>
 				</td>
-				<td><form:input path="cpassword" name="cpassword"
-						id="cpassword" /></td>
+				<td><form:input path="confirmPassword" name="confirmPassword"
+						id="confirmPassword" type="password"/></td>
 			</tr>
 			<tr>
 				<td></td>

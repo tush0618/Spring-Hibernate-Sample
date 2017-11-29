@@ -42,6 +42,8 @@
 			<beans:list>
 				<beans:value>vnfhub.supplier.model.Register</beans:value>
 				<beans:value>vnfhub.supplier.model.Login</beans:value>
+				<beans:value>vnfhub.supplier.model.ProductDetails</beans:value>
+				<beans:value>vnfhub.supplier.model.VnfDetails</beans:value>
 			</beans:list>
 		</beans:property>
 		<beans:property name="hibernateProperties">
@@ -58,10 +60,18 @@
 		<beans:property name="sessionFactory"
 			ref="hibernate5AnnotatedSessionFactory" />
 	</beans:bean>
-	<beans:bean id="userService"
-		class="vnfhub.supplier.service.UserServiceImpl">
+	<beans:bean id="userService" class="vnfhub.supplier.service.UserServiceImpl">
 		<beans:property name="userDAO" ref="userDAO"></beans:property>
 	</beans:bean>
+
+	<beans:bean id="productDAO" class="vnfhub.supplier.dao.ProductDAOImpl">
+		<beans:property name="sessionFactory"
+			ref="hibernate5AnnotatedSessionFactory" />
+	</beans:bean>
+	<beans:bean id="productService" class="vnfhub.supplier.service.ProductServiceImpl">
+		<beans:property name="productDAO" ref="productDAO"></beans:property>
+	</beans:bean>
+	
 	<context:component-scan base-package="vnfhub.supplier" />
 
 	<tx:annotation-driven transaction-manager="transactionManager" />
