@@ -1,0 +1,138 @@
+html {
+       font-family: Whitney, Helvetica !important;
+       color: #596062;
+}
+ 
+select {
+       margin: 0 auto;
+       padding: 5px 10px;
+       border: 1px solid #d5d6d9;
+       color: #697071;
+       text-transform: none;
+       width: 100%;
+       font-size: 1.2em;
+       height: 44px;
+       line-height: 24px;
+       max-width: 320px;
+       border-radius: 0;
+       height: 36px;
+       font-size: 1em;
+       font-family: Whitney, Helvetica, Arial, sans-serif;
+}
+ .card-container
+ {
+ padding-left: 10px;
+ }
+.row {
+       display: block;
+       max-width: 300px;
+       padding-bottom: 10px;
+}
+ 
+.card-header {
+       padding: 0px 0 0px !important;
+       text-transform: uppercase;
+       width: 60%	 !important;
+       border-bottom: 1px solid #f5f5f6 !important;
+       text-align: left;
+       font-weight: 600;
+}
+ 
+.card-details {
+       padding-top: 5px;
+}
+ 
+.card-num-wrap {
+       width: 300px;
+       padding-top: 5px;
+       padding-bottom: 5px;
+}
+ 
+.card-num-input {
+       width: 300px;
+       height: 35px;
+       border-radius: 5px;
+       border-style: none;
+       padding-left: 5px;
+       border: 1px solid #d5d6d9;
+}
+ 
+.name_on_card {
+       width: 300px;
+       height: 35px;
+       border-radius: 5px; border-style : none;
+       padding-left: 5px;
+       border: solid 1px #d5d6d9;
+      
+}
+ 
+.expiry {
+       display: flex;
+}
+ 
+.month {
+       width: 250px;
+       height: 35px;
+       padding-right: 10px;
+      
+}
+ 
+.cvv {
+       /* display: flex; */
+      
+}
+ 
+.cvv_label {
+       max-width: 300px;
+}
+ 
+.primary-btn {
+       font-size: 14px;
+       height: 48px;
+       background: #0bc6a0;
+       border-radius: 0;
+       display: block;
+       border-radius: 4px;
+       width: 300px;
+       font-weight: 600;
+       color: #fff;
+       border-style: none;
+}
+.cvv_box
+{
+       max-width: 300px;
+}
+.pay-btn-wrap {
+       width: 100%;
+       left: 0;
+       background-color: #fff;
+       border: none;
+       padding: 0 !important;
+       margin: 15px 0 0;
+       height: 70px;
+}
+.cvv_label
+{
+font-size: 17px;
+}
+.cvv-help-text
+{
+font-size: 12px;
+ 
+}
+.cvv_box
+{
+height: 30px;
+padding-left: 5px;
+border-radius: 4px;
+border: none;
+border: solid 1px #d5d6d9;
+}
+label
+{
+padding-bottom: 5px;
+}
+.lb
+{
+color: #0bc6a0;
+}

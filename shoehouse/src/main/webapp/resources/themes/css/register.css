@@ -1,0 +1,120 @@
+.register-button-info-text {
+	color: #94969f;
+	font-size: 12px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.register-container {
+	background: linear-gradient(to bottom right, #4ce2b1	, #fcf0e2);
+	text-align:center;
+	padding-top: 40px;
+	position: relative;
+	padding-bottom: 50px;
+}
+.register-box {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 2px 15px rgba(0, 0, 0, .1);
+	padding: 20px 10px;
+	max-width: 430px;
+	display: inline-block;
+    width: 600px;
+}
+.register-title {
+	font-size: 32px;
+	margin-top: 15px;
+	color: #535766;
+}
+.register-input-container {
+	margin: 20px;
+	border: 1px solid #bfc0c6;
+	border-radius: 5px;
+	padding: 0;
+}
+.register-input-item {
+	position: relative;
+	display: flex;
+}
+div {
+    display: block;
+}
+.register-input-item:HOVER {
+	position: relative;
+	box-shadow: 0 2px 15px rgba(0, 0, 0, .1);
+}
+.register-gender {
+    position: relative;
+    border: 0;
+    font-size: 13px;
+    color: #696e79;
+    text-align: left;
+    padding: 15px;
+    margin: 0;
+    border-top: 1px solid #d5d6d9;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.register-gender-title {
+    display: inline;
+    font-weight: 500;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.radio-class {
+    margin-left: 15px;
+    margin-right: 5px;
+}
+.register-user-input {
+	display: block;
+	color: #282c3f;
+	padding-right: 40px;
+	font-size: 15px;
+	width: 100%;
+	border: 0;
+	padding: 15px;
+}
+.register-user-input-email {
+	border-top: 1px solid #d5d6d9;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.register-user-input-password {
+	border-top: 1px solid #d5d6d9;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.register-button-container {
+	padding: 0px 20px;
+	margin: 0;
+	border: 0;
+}
+.register-button {
+	background-color: rgba(13, 173, 156, 0.87);
+	color: #fff;
+	font-size: 15px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	padding: 15px;
+	display: block;
+	width: 100%;
+	border: 0;
+	text-transform: uppercase;
+	border-radius: 3px;
+}
+.register-button:HOVER {
+	background-color: #ff4670;
+}
+.login-container
+{
+	padding-top:10px;
+}
+.login-link
+{
+	
+	color: rgba(13, 173, 156, 0.87);
+}

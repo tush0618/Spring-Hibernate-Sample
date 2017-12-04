@@ -1,0 +1,41 @@
+html {
+       font-family: Whitney, Helvetica !important;
+}
+ 
+.container {
+       margin: 10px;
+       width: 320px;
+}
+
+.heading {
+       text-transform: uppercase;
+       color: #0bc6a0;
+       margin-bottom: 0px;
+      
+}
+.cod-quote
+{
+       border-top:solid 1px #d5d6d9;
+       padding-top: 5px;
+}
+.quote {
+       color: #696e79;
+       margin-top: 0px;
+       font-size: 14px;
+}
+.cod-btn
+{
+text-align: right;
+}
+.btn {
+       border: none;
+       background-color: #0bc6a0;
+       width: 60%;
+       border-radius: 4px;
+       color: #fff;
+       text-transform: uppercase;
+       height: 35px;
+       font-size: 15px;
+       font-weight: bold;
+      
+}

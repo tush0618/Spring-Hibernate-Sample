@@ -1,0 +1,43 @@
+html
+{
+                font-family: Whitney,Helvetica,Arial,sans-serif;
+}
+h1
+{
+                text-align: center;
+                color: #697071;
+}
+.tc-container
+{
+                margin-left: 200px;
+                margin-right: 200px;
+               
+}
+.tc-info
+{
+                padding-bottom: 15px;
+                line-height: 20px;
+                list-style: none;
+                color: #697071;
+                font-size: 13px;
+}
+.tc-list
+{
+                list-style-type: none;
+}
+.title
+{
+        color: #697071;       
+}
+.desc
+{
+                padding-bottom: 15px;
+                line-height: 20px;
+                list-style: none;
+                color: #697071;
+                font-size: 13px;
+}
+strong
+{
+     color: #697071;   
+}

@@ -1,0 +1,119 @@
+.payment-footer
+{
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.payment-icon-collection
+{
+	text-align: left;
+	padding-left: 30px;
+	
+}
+.payment-icon
+	{
+	height: 50px;
+	width: 80px;
+}
+
+.help-contact
+{
+	text-align: right;
+	padding-right: 30px;
+	color: rgba(13, 173, 156, 0.87);
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+html {
+       font-family: Whitney, Helvetica !important;
+}
+ 
+ul {
+       list-style-type: none;
+       padding: 0px;
+}
+.row
+{
+display: flex;
+    max-width: 100%;
+}
+.center {
+       border-top: 0;
+       background-color: #fff;
+}
+ 
+.grid {
+       background-color: #fff;
+       max-width: 980px;
+       position: relative;
+       left: 0;
+       padding: 0;
+}
+ 
+.left {
+       padding-right: 30px;
+       width: 69%;
+       display: inline-block;
+       vertical-align: top;
+       border-right: 1px solid #efefef;
+}
+ 
+.right {
+       display: inline-block;
+       vertical-align: top;
+       padding-left: 30px;
+       padding-top: 15px;
+       padding-right: 0;
+       width: 30%;
+}
+ 
+.sub-hd {
+       background: #fff;
+       padding: 10px 0;
+       height: auto;
+       border-bottom: 2px solid #efefef;
+       padding-right: 0px;
+}
+ 
+.lb {
+       font-weight: 600;
+       font-size: 16px;
+       color: #535766;
+}
+ 
+.tabs {
+       width: 33%;
+       display: block;
+       height: 100%;
+       background-color: #f5f5f6;
+       border-left: 1px solid #eaeaec;
+       border-top: none;
+       border-bottom: none;
+           border-right: 1px solid #efefef;
+}
+.payment-tab-btn
+{
+	
+	text-transform: uppercase;
+	width: 100%;
+	height: 70px;
+	text-align: left;
+	border: none;
+	background-color: #fff;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-left: solid 5px gray;
+	padding-left: 10px;
+	border-bottom: solid 1px #efefef;
+	font-family: Whitney, Helvetica !important;
+	
+	
+}
+.pay-block
+{
+	display: flex;
+}
+.payment-display
+{
+	text-align: center;	
+}

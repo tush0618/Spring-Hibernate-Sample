@@ -1,0 +1,12 @@
+shoehouse\customer\controller\UserController.class
+shoehouse\customer\model\UserProfile.class
+shoehouse\customer\bean\LoginBean.class
+shoehouse\customer\service\UserServiceImpl.class
+shoehouse\customer\bean\CardDetailsBean.class
+shoehouse\customer\dao\UserDAO.class
+shoehouse\customer\model\UserCardDetails.class
+shoehouse\customer\bean\AddressBean.class
+shoehouse\customer\bean\RegisterBean.class
+shoehouse\customer\model\UserAddress.class
+shoehouse\customer\service\UserService.class
+shoehouse\customer\dao\UserDAOImpl.class

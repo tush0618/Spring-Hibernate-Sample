@@ -1,0 +1,37 @@
+h4
+{
+                border-bottom: solid 2px #ccc;
+                padding-bottom: 5px;
+                color: #2cd2b1;
+}
+.nav-button
+{
+    border-left: solid 3px #2cd2b1;
+    padding-left: 5px;
+}
+.nav-panel
+{
+               padding-left: 40px !important;
+               padding-top: 50px !important;
+                position: fixed;
+}
+.faqs-panel
+{
+    border-left: solid 1px #697071;              
+    padding-right: 100px !important;
+    float: right !important;
+    padding-left: 30px !important;
+}
+.query
+{
+                color: black;
+                font-weight: bold;
+                padding-bottom: 10px !important;
+                display: inline-block;
+}
+.answer
+{
+                color: #697071;
+                font-size: 13px;
+                margin-bottom: 0px !important;
+}

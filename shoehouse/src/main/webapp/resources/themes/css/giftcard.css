@@ -1,0 +1,60 @@
+html {
+	font-family: Whitney, Helvetica !important;
+}
+
+.container {
+	width: 320px;
+	margin: 10px;
+}
+
+.giftcard-head {
+	border-bottom: solid 1px #d5d6d9;
+	color: #0bc6a0;
+	text-transform: uppercase;
+}
+
+.head-info {
+	margin-top: 2px;
+	text-transform: none;
+	color: #696e79;
+	font-size: 14px;
+	width: 100%;
+}
+
+.row {
+	width: 100%;
+}
+
+label {
+	text-transform: capitalize;
+	color: #535766;
+	width: 100%;
+	font-size: 15px;
+}
+
+.giftcard-input {
+	height: 20px;
+	border-radius: 3px;
+	border: none;
+	border: solid 1px #d5d6d9;
+	padding: 5px;
+	margin-top: 3px;
+	width: 70%;
+}
+
+.apply-giftcard-btn {
+	border: none;
+	background-color: #0bc6a0;
+	color: #fff;
+	border-radius: 4px;
+	padding: 5px;
+	height: 35px;
+	width: 60%;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+input:focus {
+	outline: none !important;
+	border: solid 1px #0bc6a0;
+}
